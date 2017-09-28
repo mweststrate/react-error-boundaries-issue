@@ -23,7 +23,7 @@ export default class ErrorCatcher extends React.Component {
 test("ErrorCatcher should work", t => {
   const C = () => {
     // Try commenting next line for expected output:
-    // throw new Error("Oops");
+    throw new Error("Oops");
     return null
   };
 
